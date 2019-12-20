@@ -4,8 +4,8 @@
 
 source "https://rubygems.org"
 platform :jruby do
-  gem "cuba"
-  gem "rack"
+  gem "cuba", ">= 3.3.0"
+  gem "rack", ">= 1.6.12"
   gem "tilt"
   gem "rufus-lru"
   gem "tabula-extractor", '~>0.7.6', :require => "tabula"
